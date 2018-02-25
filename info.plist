@@ -39,7 +39,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Hipsum - COPY</string>
+	<string>Hipsum</string>
 	<key>objects</key>
 	<array>
 		<dict>
