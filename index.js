@@ -2,7 +2,6 @@
 
 const alfy = require('alfy');
 
-const items = [];
 const api = 'http://hipsterjesus.com/api'
 const type = 'hipster-centric';
 const isHTML = 'false';
