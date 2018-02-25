@@ -1,7 +1,7 @@
 {
   "name": "alfred-hipsum",
   "version": "1.0.0",
-  "description": "Oh, you need some dummy text? Alright, I guess...",
+  "description": "Alfred 3 workflow to get hipster filler text.",
   "main": "index.js",
   "author": {
     "name": "Kyle Brumm",
@@ -23,7 +23,8 @@
     "alfred3-workflow",
     "hipster",
     "placeholder",
-    "filler"
+    "filler",
+    "alfy"
   ],
   "license": "MIT",
   "bugs": {
