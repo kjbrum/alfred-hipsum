@@ -26,3 +26,8 @@ In Alfred, type `hipsum`, <kbd>Enter</kbd>, and the number of paragraphs you wan
 - [Alfy](https://github.com/sindresorhus/alfy)
 - [Hipsum.co](http://hipsum.co)
 - [HipsterJesus](http://hipsterjesus.com)
+
+
+## License
+
+MIT &copy; [Kyle Brumm](http://kylebrumm.com)
