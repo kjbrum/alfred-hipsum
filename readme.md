@@ -16,7 +16,9 @@ $ npm install --global alfred-hipsum
 
 ## Usage
 
-In Alfred, type `vegan`, <kbd>Enter</kbd>, and some text, to search for an ingredient.
+In Alfred, type `hipsum`, <kbd>Enter</kbd>, and the number of paragraphs you want.
+
+> __Note:__ API is currently broken, so only one paragraph will be returned.
 
 
 ## Credits
