@@ -1,0 +1,36 @@
+{
+  "name": "alfred-hipsum",
+  "version": "1.0.0",
+  "description": "Oh, you need some dummy text? Alright, I guess...",
+  "main": "index.js",
+  "author": {
+    "name": "Kyle Brumm",
+    "email": "kjbrumm@gmail.com",
+    "url": "kylebrumm.com"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjbrum/alfred-hipsum.git"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfred-workflow",
+    "alfred3-workflow",
+    "hipster",
+    "placeholder",
+    "filler"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjbrum/alfred-hipsum/issues"
+  },
+  "homepage": "https://github.com/kjbrum/alfred-hipsum#readme",
+  "dependencies": {
+    "alfy": "^0.7.0"
+  }
+}
