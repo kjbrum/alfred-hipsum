@@ -26,6 +26,11 @@
     "filler",
     "alfy"
   ],
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kjbrum/alfred-hipsum/issues"
