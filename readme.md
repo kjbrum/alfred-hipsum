@@ -16,7 +16,7 @@ $ npm install -g alfred-hipsum
 
 In Alfred, type `hipsum`, <kbd>Enter</kbd>, and the number of paragraphs you want.
 
-> __Note:__ API is currently broken, so only one paragraph will be returned.
+> __⚠️ Note:__ API is currently broken
 
 
 ## Credits
