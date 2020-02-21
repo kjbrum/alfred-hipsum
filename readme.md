@@ -14,7 +14,7 @@ $ npm install -g alfred-hipsum
 
 ## Usage
 
-In Alfred, type `hipsum`, <kbd>Enter</kbd>, and the number of paragraphs you want.
+In Alfred, type `hipsum`, <kbd>Enter</kbd>, and the number of paragraphs/sentences you would like.
 
 
 ## Credits
