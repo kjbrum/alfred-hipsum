@@ -1,6 +1,6 @@
 {
   "name": "alfred-hipsum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Alfred 3 workflow to get hipster filler text.",
   "main": "index.js",
   "author": {
