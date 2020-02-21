@@ -38,6 +38,6 @@
   },
   "homepage": "https://github.com/kjbrum/alfred-hipsum#readme",
   "dependencies": {
-    "alfy": "^0.7.0"
+    "alfy": "latest"
   }
 }
