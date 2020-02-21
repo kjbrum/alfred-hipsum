@@ -1,22 +1,47 @@
-'use strict';
+;(async () => {
+    'use strict'
 
-const alfy = require('alfy');
+    const alfy = require('alfy')
+    const alfredNotifier = require('alfred-notifier')
 
-const api = 'http://hipsterjesus.com/api'
-const type = 'hipster-centric';
-const isHTML = 'false';
-const numParagraphs = parseInt(alfy.input, 10) || 1;
+    // Check for updates
+    alfredNotifier()
 
-alfy.fetch(api, {
-    query: {
-        type: type,
-        html: isHTML,
-        paras: numParagraphs
-	}
-}).then(data => {
-    alfy.output([{
-        title: `Hipsum Paragraphs: ${numParagraphs}`,
-        subtitle: data.text,
-        arg: data.text
-    }]);
-});
+    const apiBase = 'https://hipsum.co/api'
+    const type = 'hipster-centric'
+    const startWithLorem = 0
+    const numParagraphs = parseInt(alfy.input, 10) || 1
+    const numSentences = parseInt(alfy.input, 10) || 1
+
+    let items = []
+
+    // Get paragraphs
+    const paragraphs = await alfy.fetch(apiBase, {
+        query: {
+            type: type,
+            startWithLorem: startWithLorem,
+            paras: numParagraphs,
+        },
+    })
+    items.push({
+        title: `Hipsum paragraphs: ${numParagraphs}`,
+        subtitle: 'Press enter to copy',
+        arg: paragraphs.join('\r\n'),
+    })
+
+    // Get sentences
+    const sentences = await alfy.fetch(apiBase, {
+        query: {
+            type: type,
+            startWithLorem: startWithLorem,
+            sentences: numSentences,
+        },
+    })
+    items.push({
+        title: `Hipsum sentences: ${numSentences}`,
+        subtitle: 'Press enter to copy',
+        arg: sentences.join('\r\n'),
+    })
+
+    alfy.output(items)
+})()
